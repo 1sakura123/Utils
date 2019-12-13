@@ -254,4 +254,11 @@ public class DateUtils {
 			return now.getTime();
 		}
 		
+		public static String dateToString(Date date){
+			
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+			return sdf.format(date);
+			
+		}
+		
 }
