@@ -15,7 +15,7 @@ public class IOUtils {
 	 * @param splitstring	切割 符号
 	 * @return
 	 */
-	private static List<Object[]> readFile(String filePath,String splitstring) {
+	public static List<Object[]> readFile(String filePath,String splitstring) {
 		try {
 			File file  = new File(filePath);
 			//按行读取
